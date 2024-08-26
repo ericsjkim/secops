@@ -1,0 +1,23 @@
+{
+  "webhook": {
+    "url": "https://zse7j.siemplify-soar.com/webhooks/4a7f0475-fe0c-4a56-bd63-5f2155ebdc11/64732249-ce09-4100-9a92-2ef4b02fca3d",
+    "method": "POST",
+    "headers": {
+      "Content-Type": "application/json",
+      "Authorization": "Bearer YOUR_API_TOKEN"
+    },
+    "body": {
+      "event": {
+        "start_time": "2024-08-19T14:30:00Z",
+        "detection_name": "Suspicious Activity Detected",
+        "end_time": "2024-08-19T14:45:00Z"
+      },
+      "metadata": {
+        "source": "CrowdStrike",
+        "event_id": "12345",
+        "severity": "high",
+        "description": "Description of the detection event."
+      }
+    }
+  }
+}
